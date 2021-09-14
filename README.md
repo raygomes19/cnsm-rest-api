@@ -29,13 +29,15 @@ Creates and returns created variety along with ID and other attributes.
 Request
 `POST /api/stock`
 
-```{
+```
+{
 	"brand": "Laravel", // Required
 	"quality": "B-100", // Required
 	"location": "Margao, Goa", // Required
 	"stock": 5,
 	"price": 24.5
-}```
+}
+```
 
 Headers
 `Content-Type: application/json`
