@@ -11,7 +11,7 @@ PHP Framework: Laravel
 Clone repo and add .env file with databse credentials.
 
 ```
-composer install
+composer update
 php artisan migrate --path=database/migrations/2021_09_12_102726_create_brands_table.php
 php artisan migrate --path=database/migrations/2021_09_12_094220_create_locations_table.php
 php artisan migrate --path=database/migrations/2021_09_13_170419_create_qualities_table.php
