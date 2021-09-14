@@ -23,7 +23,7 @@ php artisan serve
 ## API Endpoints
 The API provides the following endpoints.
 
-# Add variety stock
+### Add variety stock
 Creates and returns created variety along with ID and other attributes.
 
 Request
@@ -56,7 +56,7 @@ Response
 }
 ```
 
-# Update variety stock
+### Update variety stock
 Updates and returns existing variety with updated attributes.
 
 Request
@@ -89,7 +89,7 @@ Response
 }
 ```
 
-# Search variety stock to check availability based on attributes
+### Search variety stock to check availability based on attributes
 Searches varieties with matching attributes and returns a list of results.
 
 Request
